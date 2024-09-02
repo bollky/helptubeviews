@@ -1,8 +1,11 @@
 import React from 'react'
+import Main from '../components/section/Main'
 
 const Video = () => {
   return (
-    <div>Video</div>
+    <Main title="Video Page" description="Video Page">
+      Video
+    </Main>
   )
 }
 
